@@ -25,7 +25,7 @@ SECRET_KEY = 'r!edd^@z=834&k+a3yjv5wsj0(_7y6gok_3fj0s4%fmgqf9_x7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'corsheaders'
 ]
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://lokeshdhayal.github.io/ldc",
+    "https://lokeshdhayal.github.io/help"
 ]
 
 
